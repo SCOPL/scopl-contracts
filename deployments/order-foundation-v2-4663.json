@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "chainId": 4663,
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "guardian": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "operationalTreasury": "0x35396e0f6Ffb1351111Ae34001AF04Aa6C6Aa562",
+  "existingBuybackVault": "0x885C479cD30d02f7a7a09dC785b577B23ee27a00",
+  "canonicalScoplToken": "0xaA40e79E987517f7462bF79315B8A118799B04E3",
+  "tierSigner": "0x0000000000000000000000000000000000000000",
+  "transactions": [
+    {
+      "action": "deploy ScoplReferralRewards",
+      "hash": "0x995d7389706af4c46aa41b01c1a217f1798514de9677fde7930e53ae20daac0e",
+      "blockNumber": "45857979",
+      "contractAddress": "0x27f1944b9C2d104446CF25aEA01510A27870f609"
+    },
+    {
+      "action": "deploy ScoplRevenueDistributor",
+      "hash": "0x662ec4bcf4e6dba44e701582b7ae3c248b77582e0b1db942b2175d371e20ca8e",
+      "blockNumber": "45858025",
+      "contractAddress": "0x1cfB6dC47b7F2Ac83939Ba863AE41E7041414F13"
+    },
+    {
+      "action": "deploy ScoplOrderPolicy",
+      "hash": "0x8a45e4ef8a846f8d01216fcc7e77db3fb65de520be56a3f91dd1f38e75850a66",
+      "blockNumber": "45858071",
+      "contractAddress": "0xfA7a06b158eCf40232A4e1c976160be592391646"
+    },
+    {
+      "action": "authorize RevenueDistributor as reward creditor",
+      "hash": "0x82d715a862d33f714b470c4640e1c606f842ba7fd8d05047b9609b331580ed58",
+      "blockNumber": "45858116"
+    },
+    {
+      "action": "authorize OrderPolicy as referral binder",
+      "hash": "0xf0356d221e27138108472b71e6cdd44bc7592d754817955950148d8fa34f9238",
+      "blockNumber": "45858162"
+    }
+  ],
+  "startedAt": "2026-08-25T16:05:13.267Z",
+  "referralRewards": "0x27f1944b9C2d104446CF25aEA01510A27870f609",
+  "revenueDistributor": "0x1cfB6dC47b7F2Ac83939Ba863AE41E7041414F13",
+  "orderPolicy": "0xfA7a06b158eCf40232A4e1c976160be592391646",
+  "minimumBalances": [
+    "50000000000000000000000",
+    "250000000000000000000000",
+    "1000000000000000000000000"
+  ],
+  "beneficiarySharesBps": [
+    1000,
+    2500,
+    5000,
+    7500
+  ],
+  "runtimeCodeHashes": {
+    "referralRewards": "0x1f6e76e3ce1be3a74d15c04f74ea63e35a5e73280324b7f9181f1ddf4abfaecc",
+    "revenueDistributor": "0x08d130e78d7bb818368d950de4efdbb67b1b9b1b563139028ac50fb9fbff19f3",
+    "orderPolicy": "0x4909d84a66ab9e9544eb32db131f920393eb275bd0d708a126cc95d9b114491b"
+  },
+  "sourceVerification": {
+    "provider": "Robinhood Chain Blockscout",
+    "compilerVersion": "v0.8.26+commit.8a97fa7a",
+    "isFullyVerified": true,
+    "verifiedAt": "2026-08-25T16:43:41Z",
+    "contracts": {
+      "referralRewards": "ScoplReferralRewards",
+      "revenueDistributor": "ScoplRevenueDistributor",
+      "orderPolicy": "ScoplOrderPolicy"
+    }
+  },
+  "completedAt": "2026-08-25T16:05:36.815Z"
+}

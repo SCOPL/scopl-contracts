@@ -1,0 +1,46 @@
+{
+  "chainId": 4663,
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "guardian": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "distributor": "0x0A552810F73892216Ae755A027D4AD3efdE3Ca87",
+  "oldBuybackVault": "0x22aD6f3B512F2ebF393d50c29E9AfF5431B71c00",
+  "buybackVault": "0x885C479cD30d02f7a7a09dC785b577B23ee27a00",
+  "buybackSwapAdapter": "0x168567e09A4835D80589BCDE3F1dA5c930D5d9e7",
+  "ponsV2Factory": "0x7eD598BcEf8bd9Edd8C97A195C6d13f40801EC7e",
+  "scopl": "0xaA40e79E987517f7462bF79315B8A118799B04E3",
+  "keeper": "0x4AD9DbD85Bd045c5Fa63B3f09F6bD261C07905Df",
+  "keeperRewardWei": "20000000000000",
+  "transactions": [
+    {
+      "action": "deploy ScoplBuybackVault",
+      "hash": "0x321b0615083a3f17a940df4fcf25338ab31890fe3e02a52cd025b2ec29fed266",
+      "address": "0x885C479cD30d02f7a7a09dC785b577B23ee27a00"
+    },
+    {
+      "action": "deploy ScoplRouterSwapAdapter",
+      "hash": "0x9526a442f759d146748913dd60c9185d0d06af5a5ac5c2ea623c49ea6385f22f",
+      "address": "0x168567e09A4835D80589BCDE3F1dA5c930D5d9e7"
+    },
+    {
+      "action": "setAdapter",
+      "hash": "0x3d18bf661c3d8ac59d080afeefa29d9652c669e718ed371e5078855e5f8dbcc2"
+    },
+    {
+      "action": "configureBuyback",
+      "hash": "0x4f70893fad9e665ef28c012aa7e510db435ce31baebb93f27efb7bd5d10b005d"
+    },
+    {
+      "action": "setExecutor",
+      "hash": "0x35ca860bd5b4bc9bb7542104022cbcbb2ec8e74d0cd3ce36017d2d5b0ee3c68b"
+    },
+    {
+      "action": "finalizeBuybackConfiguration",
+      "hash": "0xd9304abb1ce236454963b4a283b7bbc570601695ac836a6eb2758e9f0e8bb0d9"
+    },
+    {
+      "action": "setDestinations",
+      "hash": "0x571424dabd88b3f1a47d62d06cf21d7e6941cff23df8018e19f958c328f58792"
+    }
+  ],
+  "deployedAt": "2026-08-16T15:47:49.711Z"
+}

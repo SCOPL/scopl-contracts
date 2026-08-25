@@ -1,0 +1,68 @@
+{
+  "contract": "ScoplV4LimitOrderManager",
+  "chainId": 4663,
+  "address": "0xcdD1E3BC873e5Ff7cA974b7212D6031fe853Cd42",
+  "transactionHash": "0x499a26fad7f5ec5c3b1ffec20b0c97995e9f40530270cb387c4802541f949ed5",
+  "hookPolicyTransactionHashes": {
+    "ponsV2": "0x329afce18b4a9e48122146f2dcf3365a4211950c37df90363af9a80d781312a9",
+    "long": "0x55f725d437d0aa91a2d70378ead504b1cb3de2bf0aaac658efaf5193685ec639"
+  },
+  "blockNumber": "36245099",
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "revenueDistributor": "0x0A552810F73892216Ae755A027D4AD3efdE3Ca87",
+  "protocolFeeBps": 150,
+  "maxProtocolFeeBps": 150,
+  "automaticPayouts": true,
+  "minGasReserveWei": "50000000000000",
+  "defaultAllowedHooks": [
+    "0x0000000000000000000000000000000000000000",
+    "0xE5e702641Ea86F4ae6cC3cDaeD2B886f976Be044",
+    "0x4e3468951D49f2EEa976eD0D6e75fFCb44a9a544"
+  ],
+  "allowedHookDataHash": {
+    "0xE5e702641Ea86F4ae6cC3cDaeD2B886f976Be044": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+    "0x4e3468951D49f2EEa976eD0D6e75fFCb44a9a544": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+  },
+  "ponsV2": {
+    "factory": "0x7eD598BcEf8bd9Edd8C97A195C6d13f40801EC7e",
+    "reviewedHook": "0xE5e702641Ea86F4ae6cC3cDaeD2B886f976Be044",
+    "compatibilitySampleToken": "0x9cA1cC0c90d97B4F36c5E2232d4fbD705a73c65d",
+    "compatibilitySamplePoolId": "0x8052650014fbe824973a674946e08182a6a116cd9b72b50a97444bbe8a2d8b86"
+  },
+  "long": {
+    "reviewedHook": "0x4e3468951D49f2EEa976eD0D6e75fFCb44a9a544",
+    "reviewedRehypeHook": "0x6f02324d20CC679d0E585290CAa6b16baCbC0F77",
+    "compatibilitySampleToken": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+    "compatibilitySampleNumeraire": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+    "compatibilitySamplePoolId": "0xcbdfea90430a30ee4469c9902e120a77e7c7e4711d5643671c1d1957f2f1ce27",
+    "liveLpFee": 7000
+  },
+  "dependencies": [
+    {
+      "name": "v4 position manager",
+      "address": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+      "codeHash": "0xc873e135dc9aaec88489cfbad146b4cb49d6a32e0d80326377784b7ba17670b2"
+    },
+    {
+      "name": "v4 state view",
+      "address": "0xf3334192d15450cdd385c8b70e03f9a6bd9e673b",
+      "codeHash": "0x7d9c591e0956fd89d98feb4ffcfe8bf1f7a62bd485edd979fa21d104b49878a6"
+    },
+    {
+      "name": "v4 pool manager",
+      "address": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "codeHash": "0xbd3881180b547f5fe817545743cfb4343e96b1bc6640dcd70c106b0066e95626"
+    },
+    {
+      "name": "Permit2",
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "codeHash": "0x5208783f52488f7d3493e5e38311ab707c1d75457fe472a19b0b4d57d66a7fca"
+    },
+    {
+      "name": "WETH",
+      "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+      "codeHash": "0x5706be52f64875fee65a2cec0d80e47a23d8793cbe85d214b48445e2d05f5353"
+    }
+  ],
+  "deployedAt": "2026-08-14T12:16:00.181Z"
+}

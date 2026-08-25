@@ -1,0 +1,55 @@
+{
+  "contract": "ScoplFeeRouter",
+  "chainId": 4663,
+  "address": "0x7d3ea31b89804d7Dd755781d56eab7128A8b4D48",
+  "transactionHash": "0x9087e0f6d8c933310e90ee22a7f388d4be54c429f1397719aea949c3fba0f472",
+  "blockNumber": "33201634",
+  "deployedAt": "2026-08-10T23:41:05.855Z",
+  "deployer": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "revenueDistributor": "0x0A552810F73892216Ae755A027D4AD3efdE3Ca87",
+  "paused": false,
+  "maximumFeeBps": 500,
+  "baseFeeBps": 500,
+  "constructorArgs": [
+    "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+    "0x0A552810F73892216Ae755A027D4AD3efdE3Ca87",
+    "0x73991a25C818Bf1f1128dEAaB1492D45638DE0D3",
+    "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+    "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
+  ],
+  "dependencies": {
+    "v3PositionManager": {
+      "address": "0x73991a25C818Bf1f1128dEAaB1492D45638DE0D3",
+      "codeHash": "0x0a493d1af3d0f25fed8efa205244ebee14114267a08647fc38c515c7cd6ead4f"
+    },
+    "v4PositionManager": {
+      "address": "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+      "codeHash": "0xc873e135dc9aaec88489cfbad146b4cb49d6a32e0d80326377784b7ba17670b2"
+    },
+    "v4PoolManager": {
+      "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+      "codeHash": "0xbd3881180b547f5fe817545743cfb4343e96b1bc6640dcd70c106b0066e95626"
+    },
+    "weth": {
+      "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "codeHash": "0x5706be52f64875fee65a2cec0d80e47a23d8793cbe85d214b48445e2d05f5353"
+    }
+  },
+  "release": {
+    "sourceSha256": "f58995a79fcd340a12ab2450d843c93a1d92933055b8bdc9eb1786bddcf85f5a",
+    "initCodeHash": "0xf4a9f1edbf20965dfed62ab8d156d1b86d72969cb7097e1039ae39ffe030a4e7",
+    "runtimeTemplateHash": "0x97ff0676fd7dcf0d4fed8dc2aeaf69128a203c902a6747060c6fb706a88ce9a2",
+    "deployedRuntimeHash": "0x309f945e3cfea6b627ba6d4e014af03c81225069daa90a5e358813bdbeac3fc0",
+    "initCodeBytes": 11749,
+    "runtimeBytes": 11086,
+    "compilerVersion": null,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200,
+      "viaIR": true
+    },
+    "gitCommit": "a60f5fdd8075f6aaef0e91af33f9a304e8ab1b8a",
+    "gitDirty": true
+  }
+}

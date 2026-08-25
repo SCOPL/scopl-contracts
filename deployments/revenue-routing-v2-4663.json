@@ -1,0 +1,35 @@
+{
+  "chainId": 4663,
+  "feeRouter": "0x7d3ea31b89804d7Dd755781d56eab7128A8b4D48",
+  "revenueDistributor": "0x1cfB6dC47b7F2Ac83939Ba863AE41E7041414F13",
+  "sources": [
+    {
+      "name": "FeeRouter",
+      "address": "0x7d3ea31b89804d7Dd755781d56eab7128A8b4D48",
+      "product": 0
+    },
+    {
+      "name": "V2 V3 LimitOrderManager",
+      "address": "0x5EC1c168fD1C17d914094Dc4e96a49C9bc6d7abc",
+      "product": 1
+    },
+    {
+      "name": "V2 V4 LimitOrderManager",
+      "address": "0x6f657f5E83f8469E4b04488f2be7Cec5705BaD1A",
+      "product": 2
+    }
+  ],
+  "transactions": [
+    {
+      "action": "authorize FeeRouter as V2 revenue product 0",
+      "hash": "0xe9056dccbb9345631299a10ffe92fc91467ebf0b2a1c5159ef60d64ee1ae9987",
+      "blockNumber": "46077079"
+    },
+    {
+      "action": "point FeeRouter to the V2 RevenueDistributor",
+      "hash": "0x0cba5356a54fb4e7b43b840f1311b26cf3ebea2369bbd66d065b5c39b2e9f5e9",
+      "blockNumber": "46077135"
+    }
+  ],
+  "activatedAt": "2026-08-25T22:12:07.357Z"
+}

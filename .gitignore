@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+dist/
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+
+# Safe transaction batches may contain operational metadata and are generated
+# locally only when ownership migration tooling is explicitly invoked.
+deployments/*-safe-batch-*.json

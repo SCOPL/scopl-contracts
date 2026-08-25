@@ -1,0 +1,31 @@
+{
+  "contract": "ScoplLimitOrderManager",
+  "chainId": 4663,
+  "address": "0xf4badBc5bea19E94f61084172f7b68383166CDd7",
+  "transactionHash": "0xf5921c63ef2ffc5c3aae6c6365dafc7fd283f36f13ceec599da47f314b263fc1",
+  "blockNumber": "35475114",
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "revenueDistributor": "0x0A552810F73892216Ae755A027D4AD3efdE3Ca87",
+  "protocolFeeBps": 150,
+  "maxProtocolFeeBps": 150,
+  "automaticPayouts": true,
+  "minGasReserveWei": "50000000000000",
+  "dependencies": [
+    {
+      "name": "v3 factory",
+      "address": "0x1f7d7550b1b028f7571e69a784071f0205fd2efa",
+      "codeHash": "0xec72b1abd1f2faee020cfea9c646bd8994f9fb389054f6e574f103a895091739"
+    },
+    {
+      "name": "v3 position manager",
+      "address": "0x73991a25c818bf1f1128deaab1492d45638de0d3",
+      "codeHash": "0x0a493d1af3d0f25fed8efa205244ebee14114267a08647fc38c515c7cd6ead4f"
+    },
+    {
+      "name": "WETH",
+      "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+      "codeHash": "0x5706be52f64875fee65a2cec0d80e47a23d8793cbe85d214b48445e2d05f5353"
+    }
+  ],
+  "deployedAt": "2026-08-13T14:49:58.817Z"
+}

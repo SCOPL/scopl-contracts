@@ -1,0 +1,47 @@
+{
+  "chainId": 4663,
+  "owner": "0x7F4a8ff98B2b2996dC96D95A358Ecf9f7473b397",
+  "orderPolicy": "0xfA7a06b158eCf40232A4e1c976160be592391646",
+  "revenueDistributor": "0x1cfB6dC47b7F2Ac83939Ba863AE41E7041414F13",
+  "managers": [
+    {
+      "name": "V3 manager",
+      "address": "0x5EC1c168fD1C17d914094Dc4e96a49C9bc6d7abc",
+      "product": 1,
+      "policyAllowed": true,
+      "revenueProduct": 1,
+      "revenueEnabled": true
+    },
+    {
+      "name": "V4 manager",
+      "address": "0x6f657f5E83f8469E4b04488f2be7Cec5705BaD1A",
+      "product": 2,
+      "policyAllowed": true,
+      "revenueProduct": 2,
+      "revenueEnabled": true
+    }
+  ],
+  "transactions": [
+    {
+      "action": "allow V3 manager in policy",
+      "hash": "0x8376aa4fd137caae50f67a17147deef10fa2573ce708ee3398ebf63a9c89dce6",
+      "blockNumber": "45907357"
+    },
+    {
+      "action": "allow V3 manager as revenue source",
+      "hash": "0x4d616619abab7ade3706b3d1c79a8fbc14d2543372e28e3bfb4dbc35a99ecfe0",
+      "blockNumber": "45907403"
+    },
+    {
+      "action": "allow V4 manager in policy",
+      "hash": "0xa8126a6028549237084411959a3d778691920238f6075e636996a688cfa5e03c",
+      "blockNumber": "45907449"
+    },
+    {
+      "action": "allow V4 manager as revenue source",
+      "hash": "0x72b926141728f419461ae555683e66580539b6222d018bca8c41ec41cd415726",
+      "blockNumber": "45907494"
+    }
+  ],
+  "activatedAt": "2026-08-25T17:27:47.027Z"
+}
