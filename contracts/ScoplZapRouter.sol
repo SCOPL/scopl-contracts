@@ -304,6 +304,7 @@ contract ScoplZapRouter {
     IZapUniversalRouter public immutable universalRouter;
     IZapPermit2 public immutable permit2;
     IZapWETH public immutable weth;
+    address public immutable v4PoolManager;
     address public owner;
     address public pendingOwner;
 
@@ -349,10 +350,12 @@ contract ScoplZapRouter {
         universalRouter = IZapUniversalRouter(universalRouterAddress);
         permit2 = IZapPermit2(permit2Address);
         weth = IZapWETH(wethAddress);
-        if (
-            IZapV4PositionManager(v4PositionManagerAddress).poolManager() !=
-                IZapV4StateView(v4StateViewAddress).poolManager()
-        ) revert InvalidContract();
+        address poolManagerAddress =
+            IZapV4PositionManager(v4PositionManagerAddress).poolManager();
+        if (poolManagerAddress != IZapV4StateView(v4StateViewAddress).poolManager()) {
+            revert InvalidContract();
+        }
+        v4PoolManager = poolManagerAddress;
         emit OwnershipTransferred(address(0), initialOwner);
     }
 
@@ -360,7 +363,8 @@ contract ScoplZapRouter {
         if (
             msg.sender != address(weth) &&
             msg.sender != address(universalRouter) &&
-            msg.sender != address(v4PositionManager)
+            msg.sender != address(v4PositionManager) &&
+            msg.sender != v4PoolManager
         ) revert TransferFailed();
     }
 
